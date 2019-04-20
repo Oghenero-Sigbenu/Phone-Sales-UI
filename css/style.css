@@ -1,0 +1,181 @@
+*{
+    margin:0px;
+    box-sizing: border-box;
+    border-style: none;
+
+}
+html, body{
+width: 100%;
+height: 100%;
+margin: 0;
+/* font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; */
+
+/* background-color: black; */
+
+}
+.navItems{
+     /* display: none; */
+}
+.upperSection{
+    /* background-color: blue; */
+    height: 600px;
+    width: 100%;
+}
+.firstdiv{
+    background-color:white;
+    
+}
+.leftBox{
+    margin-top: 160px;
+    margin-left: 80px;
+    
+}
+.leftBox h1{
+    font-size: 40px;
+}
+.two{
+    margin-top: 50px;
+}
+.card-number{
+    height: 150px;
+    text-align: center;
+     background-color: black;
+    color: white;
+    padding-top: 30px;
+    /*align-items: center; */
+}
+.row-card{
+    background-color: black;
+}
+.textleft{
+    width: 200px;
+      margin-left: 100px;  
+}
+.leftBox1, .rightBox1{
+    /* text-align: LEF */
+    align-content: center;
+    margin-top: 70px;
+   /* margin-left: 100px;  */
+    /* background-color: blue; */
+}
+.new1{
+    margin-left: 100px;
+}
+.row2{
+    border-top: 2px solid gray;
+
+   /* justify-content: center; */
+}
+.customersOpinion{
+    text-align: center;
+    margin-bottom: 60px;
+}
+.imageGallery img{
+    border-radius: 50%;
+    width: 60px;
+}
+.cardnew{
+    height: 300px;
+    margin-right: auto;
+}
+.customers{
+    margin-left: 0;
+    margin-right: 0;
+}
+.footer{
+    height: 500px;
+    text-align: center;
+    background-image: url("../images/dribble7.jpeg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    margin-top: 40px;
+}
+@media screen and (max-width: 400px){
+    
+
+    .leftBox{
+        background-color: brown;
+        height: 350px;
+        margin-top: 60px;
+        text-align: left;
+        margin-left: 30px;
+    }
+    .upperSection{
+        height: 600px;
+    }
+    .two{
+        margin-top: 0px;
+        height: 300px;
+    }
+    .two img{
+        width: 90%;
+       
+    }
+    .rightBox1 img{
+    width: 200px;
+    }
+    .rightBox2 img{
+        width: 300px;
+        }
+    .row, {
+        margin-top: 70px;
+    }
+    .rightBox2{
+        margin-top: 50px;
+        height: 400px;
+      
+    }
+    .textleft{
+        text-align: center;
+    }
+        
+}
+@media screen and (max-width: 500px){
+    .upperSection{
+        height: 1000px;
+        background-color: aqua;
+    }
+    .two img{
+        width: 100%;
+       
+    }
+    .rightBox1 img{
+        width: 250px;
+        height: 200px;
+        }
+
+}
+     @media screen and (max-width: 600px) and (min-width: 500px){
+        .upperSection{
+            height: 950px;
+            background-color: rgb(15, 59, 59);
+        }
+        .container{
+            display: flex;
+            flex-wrap: wrap;
+            flex-direction: column;
+            width: 500px;
+        }
+        .two img{
+            width: 250px;
+           
+        }}
+        
+    @media screen and (max-width: 800px) and (min-width: 600px){
+        .upperSection{
+            height: 600px;
+            background-color: rgb(107, 110, 110);
+        }
+        .two img {
+            width: 250px;
+            background-color: bisque;
+           
+        }
+        
+        .two{
+            margin-top: 160px;
+        }
+
+    }
+    
